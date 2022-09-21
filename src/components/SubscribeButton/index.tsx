@@ -4,6 +4,7 @@ import { api } from "../../services/api";
 import { getStripeJs } from "../../services/stripe-js";
 import styles from "./styles.module.scss";
 import 'react-toastify/dist/ReactToastify.css'
+import { useRouter } from "next/router";
 
 interface SubscribeButtonProps {
   priceId: string;
@@ -11,19 +12,26 @@ interface SubscribeButtonProps {
 
 export function SubscribeButton({ priceId }: SubscribeButtonProps) {
   const { data: session } = useSession();
+  const router = useRouter()
 
   async function handleSubscribe() {
     if (!session) {
       signIn("github");
       return;
     }
+
+    if (session.activeSubscription) {
+      router.push('/posts')
+      return
+    }
+
     try {
       const response = await api.post("/subscribe");
       const { sessionId } = response.data;
       const stripe = await getStripeJs()
-      await stripe.redirectToCheckout({sessionId})
+      await stripe.redirectToCheckout({ sessionId })
     } catch (error) {
-        toast.error(error.message)
+      toast.error(error.message)
     }
   }
   return (
