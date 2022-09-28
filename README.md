@@ -13,9 +13,9 @@
   </a>  
 </p>
 
-## ℹ Sobre
+## ℹ Sobre 
 
-<p>A aplicação consiste em um site de notícias por assinatura, utilizando o Stipe para realiza-las.
+<p>A Aplicação consiste em um site de notícias por assinatura, utilizando o Stipe para realiza-las.
 </p>
 <p>
   Utilizamos o FaunaDB como banco de dados, a API do Stipe para realizar e monitorar as assinaturas, e o Prismic.io para fazer as postagens das notícias e gerencia-las
