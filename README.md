@@ -34,6 +34,10 @@
 ## 👉 Demonstração da aplicação
   <img src="./public/preview.png" alt="preview">
 
+## 💟 Rodando a aplicação em produção
+
+  <strong>https://ignews-diegovsouza.vercel.app/</strong>
+
 ## 👨‍💻 Rodando na sua máquina
 
 **1:** Clone o repositório.
