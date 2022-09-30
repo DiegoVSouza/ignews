@@ -34,7 +34,11 @@
 ## 👉 Demonstração da aplicação
   <img src="./public/preview.png" alt="preview">
 
+<<<<<<< HEAD
 ## 💟 Rodando a aplicação em produção
+=======
+# 💟 Teste em produção
+>>>>>>> e5090a817f4910c41f0015440431c9254689fe83
 
   <strong>https://ignews-diegovsouza.vercel.app/</strong>
 
