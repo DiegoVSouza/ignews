@@ -32,7 +32,7 @@
 
 
 ## 👉 Demonstração da aplicação
-  <img src="./public/preview.png" alt="preview">
+  <img src="./public/preview.jpg" alt="preview">
 
 ## 💟 Rodando a aplicação em produção
 
