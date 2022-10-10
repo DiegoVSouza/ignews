@@ -60,7 +60,7 @@ cd ignews
 ```
 **4:** Inicie a aplicação.
 ```
-   1- yanr start
+   1- yarn start
    
 ```
 
