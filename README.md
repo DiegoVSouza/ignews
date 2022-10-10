@@ -5,7 +5,7 @@
 <br>
 </h1>
 
-<p align="center">Aplicação de leitura de notícias por assinatura feito com com NextJs e CSM </p> 
+<p align="center">Aplicação de leitura de notícias por assinatura feito com com NextJs e CMS </p> 
  <p align="center">Aplicação produzida no curso IGNITE da <a href="https://www.rocketseat.com.br/">@rocketseat</a> </p>
 
 <p align="center">
