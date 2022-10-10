@@ -55,12 +55,12 @@ cd ignews
 
 **3:** Instale as depedências
 ```
-  1- yarn
+  yarn
 
 ```
 **4:** Inicie a aplicação.
 ```
-   1- yarn start
+  yarn start
    
 ```
 
