@@ -38,6 +38,8 @@
 
   <strong>https://ignews-diegovsouza.vercel.app/</strong>
 
+  <p>Utilize o numero de cartão: 4242 4242 4242 4242, para testar sem pagar nada</p>
+
 ## 👨‍💻 Rodando na sua máquina
 
 **1:** Clone o repositório.
